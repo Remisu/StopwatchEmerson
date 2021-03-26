@@ -46,6 +46,8 @@ namespace ConometroEmerson
         private void BtnStart_Click(object sender, EventArgs e)
         {
             this.stopwatch.Start();
+            btnStart.Enabled = false;
+            btnStop.Enabled = true;
         }
 
         /// <summary>
@@ -56,6 +58,7 @@ namespace ConometroEmerson
         private void BtnStop_Click(object sender, EventArgs e)
         {
             this.stopwatch.Stop();
+            btnStart.Enabled = true;
         }
 
         /// <summary>
@@ -66,6 +69,8 @@ namespace ConometroEmerson
         private void BtnReset_Click(object sender, EventArgs e)
         {
             this.stopwatch.Reset();
+            btnStart.Enabled = true;
+            btnStop.Enabled = false;
         }
 
         /// <summary>
