@@ -59,6 +59,7 @@ namespace ConometroEmerson
         {
             this.stopwatch.Stop();
             btnStart.Enabled = true;
+            btnStop.Enabled = false;
         }
 
         /// <summary>
