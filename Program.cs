@@ -1,3 +1,4 @@
+// Updated
 //-----------------------------------------------------------------------
 // <copyright file="Program.cs" company="Particular">
 // <author>Emerson Barros</author>
