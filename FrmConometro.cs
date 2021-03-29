@@ -48,6 +48,7 @@ namespace ConometroEmerson
             this.stopwatch.Start();
             btnStart.Enabled = false;
             btnStop.Enabled = true;
+            btnReset.Enabled = true;
         }
 
         /// <summary>
@@ -72,6 +73,7 @@ namespace ConometroEmerson
             this.stopwatch.Reset();
             btnStart.Enabled = true;
             btnStop.Enabled = false;
+            btnReset.Enabled = false;
         }
 
         /// <summary>

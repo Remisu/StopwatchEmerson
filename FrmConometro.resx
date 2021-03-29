@@ -147,6 +147,9 @@
   <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btnReset.Enabled" type="System.Boolean, System.Private.CoreLib">
+    <value>False</value>
+  </data>
   <data name="btnReset.Font" type="System.Drawing.Font, System.Drawing.Common">
     <value>Segoe UI, 15.75pt</value>
   </data>
